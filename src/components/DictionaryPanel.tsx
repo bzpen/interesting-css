@@ -1,10 +1,7 @@
-import React from 'react'
-import styles from '../style/css/DictionaryPanel.module.less'
+import styles from '../style/css/DictionaryPanel.module.less';
 
-const DictionaryPanel = () =>{
-    return (
-        <div className={styles.panel}>DictionaryPanel</div>
-    )
-}
+const DictionaryPanel = () => {
+    return <div className={styles.panel}>DictionaryPanel</div>;
+};
 
-export default DictionaryPanel
+export default DictionaryPanel;
