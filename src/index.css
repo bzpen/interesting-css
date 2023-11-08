@@ -3,7 +3,7 @@
     line-height: 1.5;
     font-weight: 400;
 
-    color-scheme: dark;
+    color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
     text-align: center;
@@ -21,4 +21,19 @@
 }
 
 @media (prefers-color-scheme: light) {
+    :root {
+        --color-main-text: #1a1a1a;
+        --color-subtitle-text: #979797;
+
+        --color-bg-preview: #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-main-text: #ffffff;
+        --color-subtitle-text: #585858;
+
+        --color-bg-preview: #1a1a1a;
+    }
 }
