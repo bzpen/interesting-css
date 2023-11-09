@@ -1,17 +1,16 @@
-.box {
+.main_title {
+    position: relative;
     width: max-content;
-    padding: 10px;
-    position: relative;
-    margin: 20vmin auto;
     font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.4em;
     font-weight: 600;
-    position: relative;
+    margin: 20vmin auto;
+    letter-spacing: 0.4em;
     color: var(--color-main-text);
+    z-index: 1;
 
-    .main_title {
-        position: relative;
+    &::after {
+        content: attr(data-word);
+        position: absolute;
         top: 6px;
         left: 6px;
         width: max-content;
@@ -30,13 +29,6 @@
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-    }
-
-    .subtitle {
-        position: absolute;
-        top: 10px;
-        width: max-content;
-        width: max-content;
-        z-index: 2;
+        z-index: -1;
     }
 }

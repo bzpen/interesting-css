@@ -1,14 +1,26 @@
 .panel {
     height: 100vh;
+    box-sizing: border-box;
+    padding: 2rem 2rem 0;
+    background-color: var(--color-bg-preview);
     text-align: left;
-    padding-left: 10px;
-    // background-color: var(--color-bg-preview);
 
     .title {
-        padding-top: 10px;
+        padding-left: 10px;
+        text-align: center;
         color: var(--color-main-text);
+        font-weight: 300;
         font-size: 28px;
-        border-bottom: 1px solid var(--color-main-text);
+    }
+
+    .inspiration_origin {
+        padding-left: 10px;
+        margin-top: 30px;
+        text-align: center;
+        color: var(--color-subtitle-text);
+        a {
+            padding: 10px;
+        }
     }
 
     .preview_box {

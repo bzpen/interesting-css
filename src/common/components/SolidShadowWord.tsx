@@ -1,16 +1,15 @@
 import styles from './css/SolidShadowWord.module.less';
 
-const SolidShadowWord = () => {
-    const word = `大鹏一日同风起，扶摇直上九万里。`;
+interface PropsType {
+    word: string;
+}
+
+const SolidShadowWord = (props: PropsType) => {
+    const { word } = props;
 
     return (
-        <div className={styles.box}>
-            <div className={styles.main_title}>
-                <span>{word}</span>
-            </div>
-            <div className={styles.subtitle}>
-                <span>{word}</span>
-            </div>
+        <div className={styles.main_title} data-word={word}>
+            <span>{word}</span>
         </div>
     );
 };

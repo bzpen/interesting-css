@@ -20,6 +20,14 @@
     padding: 0px;
 }
 
+a {
+    color: var(--color-subtitle-text);
+}
+
+a:hover {
+    color: var(--color-main-text);
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --color-main-text: #1a1a1a;
@@ -34,6 +42,6 @@
         --color-main-text: #ffffff;
         --color-subtitle-text: #585858;
 
-        --color-bg-preview: #1a1a1a;
+        --color-bg-preview: #131313;
     }
 }
