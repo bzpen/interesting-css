@@ -1,3 +1,39 @@
 .box {
-    background-color: rgb(35, 40, 68);
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color-dictionary-header);
+    padding: 10px 20px;
+    .title {
+        font-size: 32px;
+    }
+    .icon_list {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 16px;
+        .btu_icon_moon,
+        .btu_icon_san,
+        .btu_icon_github {
+            .btu_icon;
+        }
+
+        a {
+            height: 24px;
+        }
+    }
+}
+
+.btu_icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: var(--color-subtitle-text);
+    &:hover {
+        background-color: var(--btu-bg-color-hover);
+        path {
+            fill: var(--btu-icon-bg-color-hover);
+        }
+    }
 }

@@ -33,7 +33,7 @@ a:hover {
         --color-main-text: #1a1a1a;
         --color-subtitle-text: #979797;
 
-        --color-bg-preview: #ffffff;
+        --bg-color-preview: #ffffff;
     }
 }
 
@@ -42,6 +42,10 @@ a:hover {
         --color-main-text: #ffffff;
         --color-subtitle-text: #585858;
 
-        --color-bg-preview: #131313;
+        --bg-color-preview: #131313;
+        --bg-color-dictionary-header: #131313;
+
+        --btu-icon-bg-color-hover: #ffffff;
+        --btu-icon-bg-color: #585858;
     }
 }
