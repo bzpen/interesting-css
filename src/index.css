@@ -39,13 +39,21 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-main-text: #ffffff;
-        --color-subtitle-text: #585858;
+        --color-main-text: #f8f9fa;
+        --color-subtitle-text: #adb5bd;
+        --color-component-item-name: #ced4da;
+        --color-component-item-name-hover: #f8f9fa;
+        --color-component-item-desc: #868e96;
+        --color-component-item-desc-hover: #adb5bd;
 
         --bg-color-preview: #131313;
         --bg-color-dictionary-header: #131313;
+        --bg-color-dictionary-list: #131313;
 
         --btu-icon-bg-color-hover: #ffffff;
         --btu-icon-bg-color: #585858;
+
+        --border-color-menu-item: #585858;
+        --border-color-menu-item-hover: #ffffff;
     }
 }

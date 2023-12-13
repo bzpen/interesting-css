@@ -1,15 +1,9 @@
-import styles from './css/SolidShadowWord.module.less';
+import styles from './SolidShadowWord.module.less';
 
-interface PropsType {
-    word: string;
-}
-
-const SolidShadowWord = (props: PropsType) => {
-    const { word } = props;
-
+const SolidShadowWord = () => {
     return (
-        <div className={styles.main_title} data-word={word}>
-            <span>{word}</span>
+        <div className={styles.main_title} data-word='Solid Shadow Word'>
+            <span>Solid Shadow Word</span>
         </div>
     );
 };
