@@ -1,5 +1,5 @@
 import DictionaryMenuList from './DictionaryMenuList';
-import HeaderDictionary from './HeaderDictionary';
+import DictionaryHeader from './DictionaryHeader';
 import { ComponentItem } from '../../constants/constantsType';
 import { COMPONENT_LIST } from '../../constants/constants';
 import styles from '../../style/css/DictionaryPanel.module.less';
@@ -14,7 +14,7 @@ const DictionaryPanel = (props: PropsType) => {
 
     return (
         <div className={styles.panel}>
-            <HeaderDictionary />
+            <DictionaryHeader />
             <DictionaryMenuList
                 componentList={COMPONENT_LIST}
                 curShowComponent={curShowComponent}

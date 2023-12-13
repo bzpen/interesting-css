@@ -1,3 +1,6 @@
+@import url('./style/theme/dark.css');
+@import url('./style/theme/light.css');
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -26,34 +29,4 @@ a {
 
 a:hover {
     color: var(--color-main-text);
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --color-main-text: #1a1a1a;
-        --color-subtitle-text: #979797;
-
-        --bg-color-preview: #ffffff;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-main-text: #f8f9fa;
-        --color-subtitle-text: #adb5bd;
-        --color-component-item-name: #ced4da;
-        --color-component-item-name-hover: #f8f9fa;
-        --color-component-item-desc: #868e96;
-        --color-component-item-desc-hover: #adb5bd;
-
-        --bg-color-preview: #131313;
-        --bg-color-dictionary-header: #131313;
-        --bg-color-dictionary-list: #131313;
-
-        --btu-icon-bg-color-hover: #ffffff;
-        --btu-icon-bg-color: #585858;
-
-        --border-color-menu-item: #585858;
-        --border-color-menu-item-hover: #ffffff;
-    }
 }
