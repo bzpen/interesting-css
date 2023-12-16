@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ThemeContext } from './theme-context';
+import { ThemeContext } from '../../context/themeContext';
 
 const useTheme = () => {
     // 初始主题设为系统偏好

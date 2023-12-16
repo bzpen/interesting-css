@@ -1,4 +1,4 @@
-import { useThemeContext } from '../theme/theme-context';
+import { useThemeContext } from '../../hooks/useThemeContext';
 import GithubIcon from '../../assets/icon/github.svg?react';
 import MoonIcon from '../../assets/icon/moon.svg?react';
 import SanIcon from '../../assets/icon/san.svg?react';
