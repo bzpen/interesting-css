@@ -1,0 +1,20 @@
+.light {
+    --color-main-text: #212529;
+    --color-subtitle-text: #495057;
+
+    --color-component-item-name: #868e96;
+    --color-component-item-name-hover: #495057;
+
+    --color-component-item-desc: #adb5bd;
+    --color-component-item-desc-hover: #adb5bd;
+
+    --bg-color-preview: #f8f9fa;
+    --bg-color-dictionary-header: #f8f9fa;
+    --bg-color-dictionary-list: #f8f9fa;
+
+    --btu-icon-bg-color: #868e96;
+    --btu-icon-bg-color-hover: #212529;
+
+    --border-color-menu-item: #ced4da;
+    --border-color-menu-item-hover: #868e96;
+}
